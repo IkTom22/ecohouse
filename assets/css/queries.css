@@ -1,0 +1,895 @@
+
+/* iPad pro landscape*/
+/*small tablets to big tablets 1025 to 1250px*/
+@media only screen and (max-width: 1251px){
+    .col-black {
+       -ms-flex-preferred-size: 28%;
+       flex-basis: 28%; 
+    }
+    .below-3 h4 {
+        padding-top: 27px;
+    }
+    .list-pannel{
+        min-width: 180px;
+        padding-right: 30px;
+    }
+    .side {
+        height: auto;
+        padding: 5px 10px;
+        right: 41%;
+    }
+    .sub p {
+        font-size: 100%;    
+        line-height: 1.5;
+    }
+    
+}
+/*small tablets to big rablets 812px to 1024px  iPad landscape*/
+@media only screen and (max-width: 1025px){
+    /*Hero*/
+    .hero-content {
+	    height: 150px;
+	    width: 20%;
+        padding-top: 45px; 
+    }
+    .hero-content h1 {
+	    font-size: 130%;
+	    -ms-flex-preferred-size: 40px;
+	    flex-basis: 40px;
+    }
+    .hero-content p {
+	    font-size: 110%;
+	    -ms-flex-preferred-size: 40px;
+	    flex-basis: 40px;
+    }
+    .hero-content i {
+	    -ms-flex-preferred-size: 40px;
+	    flex-basis: 40px;
+    }
+    .logo {
+	    -ms-flex-preferred-size: 100px;
+	    flex-basis: 100px;
+        height: 80px;
+	    font-size: 120%;
+	    padding: 15px ;
+    }
+    .bar{ font-size: 80%;}
+    .menu li {
+	    -ms-flex-preferred-size: 32px;
+	    flex-basis: 32px;
+	    font-size: 100%;
+    }
+    /*Section*/
+    .title {	
+	    min-width: 200px;
+        margin-top: 0;
+	    padding: 15px;
+    }
+    section:not(.hero){
+	    padding: 30px 70px;
+    }
+    /*Consept*/
+    .grid {
+	    min-width: 800px;
+    }
+    /*Design*/
+    .design-content {
+	    height: 64%;
+	    width: 40%;
+    }
+    .design-content h4 {
+	    font-size: 220%;
+	    width: 300px;
+	    letter-spacing: 0.03em;
+    }
+    .content-2 h4 {
+	    margin-right: 30px;
+	    padding-right: 30px;
+    }
+    .sub p { 
+	    letter-spacing: 0.03em;
+        font-size: 85%;   
+        width: 300px;
+        line-height: 1.5;
+
+    }
+    .scroll-up{
+	    right: 40px;
+    }
+    /*Garelly*/
+    .slider-ul {
+        height: 180px;
+   }
+    .mini-slide {
+        width: 300px;
+    }
+    .mini-slide figure img {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+   }
+    /*Contact List*/
+    .list-pannel {
+        font-size: 70%;
+        padding: 30px 20px 20px 20px;
+        letter-spacing: 0.04em;
+        min-width: 160px;
+        margin: 20px 20px 50px 20px;
+    }
+    .side {
+        right: 39%;
+        bottom: 32%;
+        width: 180px;
+        height: 50px;
+        font-size: 160%;   
+        padding: 0 20px;
+    
+    }
+    .side h4{
+        padding-top: 10px;
+    }
+    /*Energy*/
+    .below h4 {
+        font-size: 120%;
+    }
+    .below h4:hover {
+        font-size: 125%;
+    }
+    /*Fotter*/
+    .span-1 {
+        -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+        padding-right: 30px;
+    }
+}
+/*iPad Pro portrait*/
+@media only screen and (min-device-height: 1366px) and (max-width: 1024px){
+    /*Hero Section*/
+    header {
+        padding: 15%;
+    }
+    .hero-content{
+        width: 30%;
+        height: 180px;
+    }
+    .hero-content h1 {
+	    font-size: 170%;
+    }
+    .hero-content p {
+	    font-size: 140%;
+    } 
+    .menu{
+        height: 40%;
+    }
+    @-webkit-keyframes sliding {
+        100% {
+            margin: 0 25vw 0 25vw;
+        }
+    }
+    @keyframes sliding {
+        100% {
+            margin: 0 25vw 0 25vw;
+        }
+    }
+    .menu li {
+        -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
+        font-size: 160%;
+    }
+    .sticky {
+        top: 5%;
+        left: 0;
+    }
+    /*Design Section*/
+    .slider-container {
+        height: 70vh;
+        width: 80vw;
+        top: 25%;
+    }
+    .design-content{
+        top: 30%;
+        left: 50%;
+    }
+    .design-content p,
+    .subline{
+        font-size: 120%;
+    }
+    /*List Section*/
+    .listings {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+    }    
+    .js--listing {
+        -ms-flex-preferred-size: 44%;
+        flex-basis: 44%;
+    }
+    .contact-list .title{
+        margin-top: 5%;
+    }
+    .list-pannel {
+        font-size: 100%;
+        padding: 30px;
+    }
+    .side {
+        right: 65%;
+    }
+}
+
+
+/*Pixel 2 XL landscape*/ 
+@media only screen and (max-width: 824px){
+    .section{
+        width: 100vw;
+    }
+    /*Concept Section*/
+    .subline{
+        display: none;
+    } 
+    .sticky {
+        padding: 20px 50px;
+    }
+    .sticky .bar{
+        margin-right: 5%;
+    }
+    /*Design Section*/
+    .design-content {
+        left: 50%;
+        top: 15%;
+        height: 70%;
+        width: 45%;
+        background-color: rgba(242, 255, 206, 0.7);
+        
+    }
+    .content-2 {
+        left: 3% !important;
+        border-left: 1px solid rgba(64, 64, 58, 0.7); 
+
+    }
+    .content-2 .sub p {
+        padding: 0 35px 30px 35px;
+    }
+    .content-1 {
+        border-right: 1px solid rgba(64, 64, 58, 0.7); 
+    }
+    .design-content h4 {
+        padding-top: 30px;
+    }
+    /*Off Grid Section*/
+    .energy .grid{
+        padding-top: 0;
+    }
+    .below {
+        margin-top: 180px;
+    }
+    .below h4{
+        padding: 30px;
+    }
+    .show {
+	   margin-top: -150px;
+        }
+    /*Contact list Section*/
+   .contact-list{
+        padding: 30px !important; 
+    }
+    .list-pannel {
+        width: 80%;
+        min-width: 120px;
+        min-height: 280px;
+        padding: 10px
+    }
+    .contact-list .title {
+        margin-bottom: 1.5em;
+    }
+    .side {
+        padding: 0 15px;
+        bottom: 1%;
+        font-size: 120%;
+        right: 45%;
+    }
+}
+/*small tablets 769 to 812px iPhone-X landscape-- */
+@media only screen and (max-width: 812px){
+    /*Design Section*/
+    .scroll-up{
+        bottom: 10px;
+        right: 20px;
+    }
+    /*Off Grid Section*/
+    .energy .title{
+        padding-top:0;
+    }
+}
+/* iPhone 6/7/8 plus , Pixel2 landscape small tablet*/ 
+@media only screen and (max-width: 768px){
+
+    .title h3 {
+	    font-size: 125%;
+        letter-spacing: 0.03em;
+    }
+    /*Hero*/
+    .hero-content {
+	    height: 120px;
+	    width: 25%;
+        padding-top: 35px; 
+    }
+    .hero-content h1 {
+	    font-size: 120%;
+	    -ms-flex-preferred-size: 40px;
+	    flex-basis: 40px;
+    }
+    .hero-content p {
+	    font-size: 100%;
+	    -ms-flex-preferred-size: 40px;
+	    flex-basis: 40px;
+    }
+    .hero-content i{
+        
+        font-size: 120%;
+    }
+    .hero-content:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .menu li {
+	    -ms-flex-preferred-size: 30px;
+	    flex-basis: 30px;
+	    font-size: 95%;
+        letter-spacing: 0.06em;
+    }
+    /*Section*/
+    .subline {
+        letter-spacing: 0.03em;
+	    line-height: 1.5;
+	    padding:30px;
+	    font-size: 95%;
+     }
+    
+    /*Consept*/
+    .grid {
+        min-width: 670px;
+    	height: 200px;
+    }
+    .grid h4{
+        font-size: 108%;
+        letter-spacing: 0.08em;
+    }
+    /*Design*/
+    .design-content {
+        height: 70%;
+	    width: 50%;
+    }
+    .design-content h4{
+        padding-top: 50px;
+    }
+    .content-2 .sub p {
+	    padding-right: 40px;
+    }
+
+    /*Energy*/
+    .below h4 {
+        padding: 30px 50px ;
+    }
+    .col-black {
+	-ms-flex-preferred-size: 31%;
+	flex-basis: 31%;
+    }
+    .hidden p {
+        font-size: 95%;
+        line-height: 1.2;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+    }
+    /*Contact list*/
+    .contact-list {
+        height: auto;   
+    }
+    .listings {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .js--listing {
+        -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+    }
+    .list-pannel {
+        font-size: 90%;
+        letter-spacing: 0.03em;
+    }
+    .side {
+        right: 60%;
+        bottom: 32%;
+    }
+    .span-1 {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        padding-right: 30px;
+    }
+}
+
+/*small tablets 769 to 812px iPhone-X landscape-- */
+/*
+@media only screen and (max-width: 812px){
+}
+*/
+/* iPhone 6/7/8 plus , Pixel2 landscape small tablet*/ 
+/*
+@media only screen and (max-width: 768px){
+    
+}
+*/
+
+/* iPad portrait kindle */
+@media only screen and (min-device-height: 1024px) and (max-width: 768px){
+    /*Hero Section*/
+    .hero-content {
+	    width: 30%;
+    }
+    .hero-content h1 {
+	    font-size: 160%;
+    } 
+    .hero-content p {
+	    font-size: 110%;
+    } 
+    .menu {
+        width: 50%;
+        height: 60vh;
+        margin: 100vh 25% 0 25%;
+    }
+    @-webkit-keyframes sliding {
+	100% {
+		margin: 0 25vw 0 25vw;
+	   }
+    }
+    @keyframes sliding {
+	100% {
+		margin: 0 25vw 0 25vw;
+	   }
+    }
+    .menu li {
+	    font-size: 130%;
+        letter-spacing: 0.3em;
+        -ms-flex-preferred-size: 4em;
+        flex-basis: 4em;
+        
+    }  
+    .sticky {
+        padding: 50px;
+    }
+    .sticky .bar{
+        margin-right: 2%;
+    }
+    /*Concept section*/
+    .consept .title{
+        padding: 3em;
+    }
+    /*Energy*/
+    .energy .title{
+        padding: 3em;
+    }
+
+    .below {
+        margin-top: 250px;
+    }
+    .show {
+	   margin-top: -140px;
+    }
+}
+
+/* iPhone 6/7/8 GalaxyS5 landscape*/ 
+@media only screen and (max-width: 667px){
+    header {
+        padding: 3em 2em !important;
+    }
+    
+    .logo {
+        -ms-flex-preferred-size: 100px;
+        flex-basis: 100px;
+    }
+
+    .sticky {
+        padding: 20px;
+    }
+    /*Concept Section*/
+    .consept .title, .consept p {
+        -ms-flex-preferred-size: 15%;
+        flex-basis: 15% !important;
+    }
+    .design-content h4 {
+        font-size: 200%;
+        width: 100%;
+    }
+    .design-content h4, 
+    .content-2 h4 {
+        margin: 35px auto 20px !important;
+    }
+    .content-2 {
+        left: 10% !important;
+    }
+    .slider-menu {
+        left: 40% !important;
+    }
+    /*Energy Section*/
+    .energy .title {
+        padding-top: 2em;
+    }
+    .below h4 {
+        padding-top: 15% !important;
+    }
+    /*Contact Section*/
+    .side {
+        color: rgba(64, 64, 58, 0.7) !important;
+        right: 65% !important;
+        bottom: 32% !important;
+        font-size: 200% !important;
+    }    
+}
+/* iPhone 5/SE landscape*/
+@media only screen and (max-width: 568px){
+    .below h4 {
+        padding-top: 10% !important;
+    }
+    .side {
+        right: 58% !important;
+        font-size: 180% !important;
+    } 
+    
+}
+/*Pixel 2 XL, Pixel 2 iPhone 6/7/8 Plus  *iPhone x portrait Android*/
+@media only screen and (min-device-height: 731px) and (max-device-height: 823px) and (max-width: 480px){
+    .below {
+        margin-top: 250px;
+    }
+    .show {
+	   margin-top: -140px;
+    }
+    .side {
+        color: #fff !important;
+        right: 55% !important;
+    }
+}
+/*iPhone 6/7/8 portrait Android 480 x 320*/
+@media only screen and (min-device-height: 480px) and (max-width: 375px){
+    .below h4 {
+        padding-top: 15% !important;
+    }
+    .side {
+        right: 63% !important;
+    }
+}
+
+@media only screen and (max-width: 481px){
+    /*Hero*/
+    .hero-content {
+	    width: 35%;
+        border: none;
+        background-color: rgba(64, 64, 58, 0.7);
+        color: #fff;
+    }
+    .hero-content:hover {
+        background-color: rgba(20, 139, 137, 0.7);
+    }
+    .hero-content h1 {
+	    font-size: 120%;
+    }
+    .hero-content p {
+	    font-size: 90%;
+    }
+    .menu {
+        width: 50%;
+        margin: 100vh 25% 0 25%;
+    }
+    @-webkit-keyframes sliding {
+	100% {
+		margin: 0 25vw 0 25vw;
+	}
+    }
+    @keyframes sliding {
+	100% {
+		margin: 0 25vw 0 25vw;
+	}
+    }
+    .menu li {
+	    font-size: 90%;
+    }    
+    header {
+	    -ms-flex-line-pack: center;
+	    align-content: center;
+	    padding: 65px;
+    }
+    .logo {
+	    -ms-flex-preferred-size: 60px;
+	    flex-basis: 60px;
+        height: 60px;
+	    border: 2px solid rgba(69, 69, 67, 0.7);
+	    font-size: 105%;
+	    padding: 10px;
+	    color: rgba(69, 69, 67, 0.8);
+        letter-spacing: 0.2em;
+    }    
+    .bar {
+        color: rgba(69, 69, 67, 0.7);
+    } 
+    .sticky {
+        height: 60px;
+        padding: 20px 35px;
+    }
+    .sticky .logo {
+	    font-size: 70%;
+        letter-spacing: 0.2em;
+    }
+    .sticky .bar {
+        font-size: 65%;
+    }
+    /*General*/
+    .up {
+         margin-left: 85%;
+    }
+    section:not(.hero){
+	    -webkit-box-align: center;
+	    -ms-flex-align: center;
+	    align-items: center;
+	    padding: 30px;
+}
+    .title {	
+	    min-width: 180px;
+        margin-top: 0;
+    }
+    .upper, .lower {
+	    width: 180px;
+	    height: 15px;
+}
+    .title h3 {
+	   font-size: 112%;
+    }
+
+    .subline { 
+	   line-height: 1.5;
+	   padding: 25px 20px;
+	   font-size: 80%;
+       letter-spacing: 0.03em;
+    }
+    /* Consept*/
+    .consept{
+        height: 130vh;
+    }
+    .consept p {
+        width: 380px;
+        opacity: 0.8;
+        word-spacing: 0.2em;
+    }
+    .consept .title,
+    .consept p {
+        -ms-flex-preferred-size: 10%;
+        flex-basis: 10%;
+    }
+    .grid {
+        min-width: 300px;
+        -ms-flex-preferred-size: 70%;
+        flex-basis: 70%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+}
+    .grid li {
+	    -ms-flex-preferred-size: 50%;
+	    flex-basis: 50%;
+	    padding: 30px 10px 20px 10px;
+        min-height: 120px;
+        border: none;
+    }
+    .grid .grid-li-3,
+    .grid .grid-li-4 {
+        border-top: 1px solid rgba(64, 64, 58, 0.4);
+        border-bottom: none;
+    }
+    .grid .grid-li-1,
+    .grid .grid-li-3{
+        border-right: 1px solid rgba(64, 64, 58, 0.4);
+    }
+    .grid i {
+	    font-size: 280%;
+    }
+    .grid h4 {
+	    font-size: 103%;
+    }
+    /*Design*/
+    .slider-container {
+	    height: 100vh;
+	    width: 100%;
+    }
+    .slider-menu {
+	    left: 45%;
+    } 
+    .design-2 .slider-menu {
+	    left: 45%;
+        bottom:1.7em;
+    }
+    .design-content {
+	    top:20%;
+        left: 10%;
+	    width: 80%;
+        border: none;
+    }
+    .design-content h4,
+    .content-2 h4,
+    .sub p {
+        text-align: center;
+    }
+    .design-content h4,
+    .content-2 h4{
+        margin: 50px  20px auto;
+        padding: 0;
+    } 
+
+    .sub p,
+    .content-2 .sub p {
+        margin: 20px auto;
+        width: 90%;
+        font-size: 80%;
+    }
+    
+    /*Gallery*/
+    .gallery {
+        height: 1350px !important; 
+        top: 10px;
+      }
+    .mini-slider {
+        height: 100%;  
+        width: 100%;
+}
+    .slider-ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .mini-slide {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        background-color: #fff;
+        width: 100%;
+    }
+
+    .mini-slide figure img {
+        -webkit-transform: scale(1.6);
+        transform: scale(1.6);
+        opacity: 1;
+    }
+    .mini-slide figure img:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+        opacity: 1;
+    }
+    .left,
+    .right {
+        display: none;
+    }
+    
+    /*Energy*/
+    .energy {
+        height: 160vh;
+    }
+    .energy .title{
+        -ms-flex-preferred-size: 5%;
+        flex-basis: 5%;
+    }
+    .energy .grid {
+        -ms-flex-preferred-size: 95%;
+        flex-basis: 95%;
+        width: 100%;  
+        padding-top: 0;
+    }
+    .col-black {
+	    -ms-flex-preferred-size: 70%;
+	    flex-basis: 70%;
+        min-height: 160px;
+        border: none;
+    }
+    .below h4 {
+	   padding: 10% 58px;
+       font-size: 104%; 
+    }
+    .below h4:hover {
+	   font-size: 106%;
+    }
+    .item .pannel {
+        font-size: 300%;
+    }
+    .wind-string {
+        z-index: 999;
+    }
+    .string-1 {
+	   top: 130px;
+    }
+    .string-2 {
+	   top: 150px;
+    }
+    .string-3 {
+	   top: 170px;
+    }
+
+    /*Contact list*/
+   .contact-list {
+        height: auto;   
+    }
+    .listings {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .js--listing {
+        -ms-flex-preferred-size: 200px;
+        flex-basis: 200px;
+        width: 80%;
+    }
+    .list-pannel {
+        width: 86%;
+        padding-right: 40px;
+        height: 90%;
+    }
+    .list p {
+        width: auto;
+    }
+    .side {
+        background-color: transparent;
+        color: #fff;
+        right: 55%;
+        bottom: 32%;
+        font-size: 240%;
+        letter-spacing: 0.3em;
+       
+    }
+    @-webkit-keyframes appear {
+        100% {
+            opacity: 0.9; 
+        }
+    }
+    @keyframes appear {
+        100% {
+            opacity: 0.9; 
+        }
+    }
+    /*Fotter*/
+    .row {
+        font-size: 70%;
+    }
+    .row-1 {
+        -ms-flex-preferred-size: 66%;
+        flex-basis: 66%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .span-1, 
+    .span-2 {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    }
+    .span-1{ 
+        width: 80%;
+        padding: 3%;
+    
+    }
+    .span-2{ width: 30%;}
+    .span-2 i {
+        font-size: 160%;
+    }
+    .row-2{
+        -ms-flex-preferred-size: 33%;
+        flex-basis: 33%;
+    }
+}
